@@ -1,0 +1,23 @@
+.check{
+    margin-left: auto;
+    padding-right: 10px;
+    color: #3bbf37;
+    align-self: center;
+    display: none;
+}
+.select{
+    background-color: #3bbf37;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.select option{
+    cursor: pointer;
+    background-color: gray;
+}
+.box{
+    min-height: 50vh;
+}
