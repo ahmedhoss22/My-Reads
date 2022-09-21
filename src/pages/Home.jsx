@@ -10,12 +10,16 @@ function Home(){
     
     return (
         <React.Fragment>
-            <h1>My Reads  </h1>
-            <h2>Currently Reading<span className='line'></span></h2>
+
+            <h1>My Reads</h1>
+            <h2>Currently Reading</h2>
+            <hr />
             <HomeBooks name={"Currently Reading"}/>
-            <h2>Want to Read <span className='line' style={{left:"7%",width:"150px"}}></span></h2>
+            <h2>Want to Read</h2>
+            <hr />
             <HomeBooks name={"Want to Read"}/>
-            <h2>Read <span className='line' style={{left:"3%" , width:"80px"}}></span></h2>
+            <h2>Read</h2>
+            <hr />
             <HomeBooks name={"Read"}/>
             <Link to="/menu"> 
                 <FontAwesomeIcon icon={faPlusCircle} className={'plus'}></FontAwesomeIcon>

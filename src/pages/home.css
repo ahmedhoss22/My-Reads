@@ -9,12 +9,10 @@
     border-radius: 50%;
 }
 h2{
-    position: relative;
     width: 90%;
     margin: 20px auto !important;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    user-select: none;    
 }
 @media screen and  (max-width:600px) {
     .plus{
@@ -27,23 +25,7 @@ h2{
 }
 h1{
     text-align: center;
-    background-color: rgb(46, 124, 49);
+    background-color: rgb(46, 124, 49);;
     color: #fff;
     padding: 10px;
-    user-select: none;
 }
-.line{
-    position: absolute;
-    background-color: rgb(46, 124, 49);
-    height: 2.5px;
-    width: 170px;
-    display: block;
-    bottom: -10;
-    left: 8%;
-    transform: translateX(-50%) scaleX(.6);
-    border-radius: 20%;
-    transition: .5s;
-}
-h2:hover .line{
-    transform: scaleX(1) translateX(-50%);
-} 
